@@ -1,0 +1,134 @@
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #F2BAC9 50%, #F2E2BA 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #F2BAC9 50%, #f1e0b7 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  background-image: linear-gradient(-60deg, #F2BAC9 50%, #BAD7F2 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+  animation-duration:5s;
+  animation:slide 3s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.img {
+  width: 50%;
+  border-radius: 2rem;
+  max-width: 600px;
+}
+
+.projectName {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0;
+}
+
+.linksContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+	align-items: center;
+  transform: translateY(-5rem);
+}
+
+.projectText {
+  background-color: rgba(242, 226, 186, 0.8);
+  padding: 1rem;
+  margin: 2rem;
+  width: 70%;
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.link {
+  padding: 1rem;
+  background-color:#f1e0b7;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.link:hover {
+  background-color: #F2BAC9;
+  box-shadow:rgba(142, 55, 129, 0.5) 5px 5px 5px;
+  animation: wiggle 2s;
+}
+
+.container {
+  height: 100vh;
+}
+
+.imgAndTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes wiggle {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media screen and (max-width: 700px) {
+  .projectName {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .imgAndTextBox {
+    flex-direction: row;
+    width: 75%;
+  }
+  .link {
+    font-size: 1.3rem;
+  }
+}
