@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <p className={styles.aboutText}>
           I’m an artsy Denver-born front-end focused software engineer 
-          working in React and Next.js (what this site is built with!)  
+          working in React and Next.js (what this site is built with!).
           </p>
           <p className={styles.aboutText}>
             I love working on UI/UX, and really anything that'll give
