@@ -42,6 +42,15 @@ export default function Project() {
                   </div>
                 ))}
               </div>
+              <div className={`${SEL} ${styles.surpriseContainer}`}>
+                <div className={styles.surpriseBox}>
+                  <img 
+                    src="https://i.imgur.com/WedTmkq.png" 
+                    className={styles.surpriseDrawing}
+                    alt="surprise drawing" 
+                    />
+                </div>
+              </div>
           </ReactFullpage.Wrapper>
         )}
         />
