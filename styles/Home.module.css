@@ -9,8 +9,7 @@
 
 .photo {
   background-image: url(../public/cyanne-linked-in.jpeg);
-  height: 20rem;
-  width: 20rem;
+  height: 40%;
   background-size: contain;
   border-radius: 100%;
   margin: 2rem;
@@ -99,4 +98,35 @@
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@media screen and (max-width: 750px) {
+  .main {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    height: auto;
+  }  
+  .textBox {
+    height: auto;
+  }
+
+  .photo {
+    width: 40%;
+  }
+  
+  .nameText {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  
+  .aboutText {
+    font-size: 1.3rem;
+  }
 }

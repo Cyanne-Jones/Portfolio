@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Nav from "../components/Nav.jsx";
+import photo from '../public/cyanne-linked-in.jpeg';
 
 export default function Home() {
   return (
@@ -31,8 +32,10 @@ export default function Home() {
             contact page!`}
           </p>
         </div>
-        <div className={styles.photo}>
-        </div>
+        <img 
+        src="https://i.imgur.com/516lOVD.jpg" 
+        alt="Cyanne Jones" 
+        className={styles.photo}/>
       </main>
     </div>
   )
