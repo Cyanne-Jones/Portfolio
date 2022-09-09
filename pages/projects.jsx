@@ -12,7 +12,7 @@ export default function Project() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Cyanne's Projects</title>
+        <title>Projects</title>
         <meta name="description" content="Cyanne Jones' Projects" />
       </Head>
       <div className={styles.bg}></div>
