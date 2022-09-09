@@ -35,7 +35,7 @@ export default function Project() {
                         <img src={project.img} className={styles.img}/>
                         <div className={styles.projectText}>
                         <p className={styles.projectDescription}>{project.description}</p>
-                        <p>Built using: {project.builtUsing}</p>
+                        <p className={styles.builtUsing}>Built using: {project.builtUsing}</p>
                         <p className={styles.projectDate}>{project.date}</p>
                       </div>
                       </div>

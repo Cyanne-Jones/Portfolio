@@ -121,6 +121,14 @@
   .projectName {
     font-size: 2rem;
   }
+  .projectDescription,
+  .builtUsing,
+  .projectDate {
+    font-size: 1rem;
+  }
+  .img {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 700px) {
