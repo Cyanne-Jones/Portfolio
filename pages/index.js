@@ -21,14 +21,14 @@ export default function Home() {
           Programming feels like all three.
           </p>
           <p className={styles.aboutText}>
-          I’m an artsy Denver-born front-end focused software engineer 
-          working in React and Next.js (what this site is built with!).
+          {`I’m an artsy Denver-born front-end focused software engineer 
+          working in React and Next.js (what this site is built with!)`}.
           </p>
           <p className={styles.aboutText}>
-            I love working on UI/UX, and really anything that'll give
+            {`I love working on UI/UX, and really anything that'll give
             me the opportunity to have some creative fun. Feel free to 
             browse through my projects or drop me a line through my 
-            contact page!
+            contact page!`}
           </p>
         </div>
         <div className={styles.photo}>
