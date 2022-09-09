@@ -28,8 +28,15 @@ export default function Project() {
                   <div key={project.id} className={`${styles.slide} slide`}>
                       <h3 className={styles.projectName}>{project.name}</h3>
                       <div className={styles.linksContainer}>
-                        <a className={styles.link} href={project.deployed} target="_blank">deployed</a>
-                        <a className={styles.link} href={project.repository} target="_blank">repository</a>
+                        <a 
+                          className={styles.link} 
+                          rel="noreferrer"
+                          href={project.deployed} 
+                          target="_blank">deployed</a>
+                        <a className={styles.link} 
+                          rel="noreferrer"
+                          href={project.repository} 
+                          target="_blank">repository</a>
                       </div>
                       <div className={styles.imgAndTextBox}>
                         <img src={project.img} className={styles.img}/>
