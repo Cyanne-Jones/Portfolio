@@ -1,0 +1,89 @@
+.contact {
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg {
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #F2BAC9 50%, #F2E2BA 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #F2BAC9 50%, #f1e0b7 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+  animation-direction:alternate-reverse;
+  animation-duration:10s;
+}
+
+.bg3 {
+  background-image: linear-gradient(-60deg, #F2BAC9 50%, #BAD7F2 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+  animation-duration:10s;
+  animation:slide 10s ease-in-out infinite alternate;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+.boxContainer {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.yellowBox {
+  height: 70%;
+  width: 70%;
+  background-color: rgba(242, 226, 186, 0.8);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 1rem;
+  text-align: center;
+}
+
+.contactText {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+
+.contactType {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  .contactText {
+    font-size: 1.2rem;
+  }
+}
