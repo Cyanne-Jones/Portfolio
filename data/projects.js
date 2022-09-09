@@ -12,7 +12,7 @@ const projects =  [
   {
     name: 'small Talk',
     id: 'smallTalk',
-    description: 'After Covid, we all need a little social help at a party. Sometimes we feel uncomfortable, and need a little boost. small Talk is an app to give you a little boost in the form of saveable fun facts, jokes and drink recipes!',
+    description: 'Sometimes at a party we can feel awkward, and need a little boost. small Talk is an app to give you a little boost in the form of saveable fun facts, jokes and drink recipes!',
     img: 'https://i.imgur.com/82HhkRi.png',
     deployed: 'https://small-talk-beta.vercel.app/',
     repository: 'https://github.com/Cyanne-Jones/small-talk',
