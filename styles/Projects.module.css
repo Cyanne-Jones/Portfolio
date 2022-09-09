@@ -121,6 +121,14 @@
   .projectName {
     font-size: 2rem;
   }
+  .projectDescription,
+  .builtUsing,
+  .projectDate {
+    font-size: 1rem;
+  }
+  .img {
+    width: 80%;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -131,4 +139,27 @@
   .link {
     font-size: 1.3rem;
   }
+}
+
+.surpriseContainer {
+  height: 100%;
+  transform: translateY(-3rem);
+  display: flex;
+  align-items: center;
+
+}
+
+.surpriseDrawing {
+  width: 60%;
+}
+
+.surpriseBox {
+  height: 70%;
+  width: 70%;
+  background-color: rgba(242, 226, 186, 0.8);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

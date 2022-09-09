@@ -35,12 +35,21 @@ export default function Project() {
                         <img src={project.img} className={styles.img}/>
                         <div className={styles.projectText}>
                         <p className={styles.projectDescription}>{project.description}</p>
-                        <p>Built using: {project.builtUsing}</p>
+                        <p className={styles.builtUsing}>Built using: {project.builtUsing}</p>
                         <p className={styles.projectDate}>{project.date}</p>
                       </div>
                       </div>
                   </div>
                 ))}
+              </div>
+              <div className={`${SEL} ${styles.surpriseContainer}`}>
+                <div className={styles.surpriseBox}>
+                  <img 
+                    src="https://i.imgur.com/WedTmkq.png" 
+                    className={styles.surpriseDrawing}
+                    alt="surprise drawing" 
+                    />
+                </div>
               </div>
           </ReactFullpage.Wrapper>
         )}
