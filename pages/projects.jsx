@@ -19,6 +19,7 @@ export default function Project() {
       <div className={styles.bg2}></div>
       <div className={styles.bg3}></div>
       <Nav />
+      <div className={styles.fullPageContainer}>
       <ReactFullpage
         licenseKey={"H1KNJ-RBQ08-0HNN7-49P1J-OXTVN"}
         render={() => (
@@ -61,6 +62,7 @@ export default function Project() {
           </ReactFullpage.Wrapper>
         )}
         />
+        </div>
     </div>
   )
 
