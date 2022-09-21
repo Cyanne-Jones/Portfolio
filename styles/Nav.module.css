@@ -1,14 +1,13 @@
 .navBar {
   background: linear-gradient(rgba(186, 215, 242, 1), rgba(186, 215, 242, 0.5));
-  height: 5rem;
   padding: 1rem;
   font-size: 1.5rem;
-  position: relative;
+  /* position: relative; */
 }
 
 .activeLink {
   background-color: #BAF2BB;
-  box-shadow:rgba(142, 55, 129, 0.5) 5px 5px 5px;
+  box-shadow:rgba(142, 55, 129, 0.3) 0px 5px 10px;
   height: 2rem;
   padding: 1rem;
   margin: 1rem;
