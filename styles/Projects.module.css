@@ -68,8 +68,8 @@
   flex-direction: column;
   justify-content: flex-start;
 	align-items: center;
-  margin: 2rem;
-  padding: 1rem;
+  margin: 3rem;
+  padding: 2rem;
   border-radius: 1rem;
   background-color: rgba(186, 215, 242, 0.5);
   box-shadow:rgba(194, 118, 183, 0.3) 0px 5px 10px;
@@ -139,6 +139,7 @@
 
   .projectText {
     padding: 1rem;
+    width: 90%;
   }
 }
 
