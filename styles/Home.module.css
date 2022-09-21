@@ -5,6 +5,7 @@
   width: 65%;
   padding: 3rem;
   margin: 2rem;
+  box-shadow:rgba(194, 118, 183, 0.3) 0px 5px 10px;
 }
 
 .photo {
@@ -12,6 +13,7 @@
   height: 40%;
   background-size: contain;
   border-radius: 100%;
+  box-shadow:rgba(194, 118, 183, 0.3) 0px 5px 10px;
   margin: 2rem;
   border: solid rgba(186, 215, 242, 1) 7px;
 }
@@ -33,7 +35,8 @@
 
 .nameText {
   font-size: 3rem;
-  margin: 1rem;
+  text-align: center;
+  margin: 0px;
 }
 
 .nameText:hover {
