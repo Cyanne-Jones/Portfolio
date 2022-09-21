@@ -16,7 +16,7 @@ export default function Home() {
       <Nav />
       <main className={styles.main}>
         <div className={styles.textBox}>
-          <h2 className={styles.nameText}>Cyanne Jones</h2>
+          <h2 className={styles.nameText}>❀Cyanne Jones❀</h2>
           <p className={styles.aboutText}>
           I love sunshine, art and problem solving. 
           Programming feels like all three.

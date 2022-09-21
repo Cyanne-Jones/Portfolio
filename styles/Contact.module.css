@@ -66,6 +66,7 @@
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
+  box-shadow:rgba(194, 118, 183, 0.3) 0px 5px 10px;
 }
 
 .header {

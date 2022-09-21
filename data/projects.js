@@ -20,7 +20,7 @@ const projects =  [
     builtUsing: 'Vue.js, HTML, CSS, Pinia, Vercel, Figma'
   },
   {
-    name: 'Rancid Tomatillos',
+    name: 'rancid tomatillos',
     id: 'rancidTomatillos',
     description: 'Would you like information for all the best movies\' information at your fingertips? Search no farther! Rancid Tomatillos is for you!',
     img: 'https://i.imgur.com/6Yo6bo8.jpg',
@@ -30,7 +30,7 @@ const projects =  [
     builtUsing: 'React, HTML, CSS, Heroku, Figma'
   }, 
   {
-    name: 'Tic Tac Nacho',
+    name: 'tic tac nacho',
     id: 'ticTacNacho',
     description: 'Help Nacho Libre and his sidekick, Esqueleto, train for their next big luchador match by sparring in an action packed tic tac toe game!',
     img: 'https://i.imgur.com/XtNFkMY.png',
