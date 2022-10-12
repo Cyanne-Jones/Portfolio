@@ -1,5 +1,15 @@
 const projects =  [
   {
+    name: 'constellate',
+    id: 'constellate',
+    description: 'A web based journaling application to keep track of your thoughts and moods over time.',
+    img: 'https://i.imgur.com/M5iWWrx.png',
+    deployed: 'https://constellate-journal.vercel.app/',
+    repository: 'https://github.com/Cyanne-Jones/constellate',
+    date: 'September-October 2022',
+    builtUsing: 'Next.js, Google Auth, Firestore, Zustand, Vercel, Figma, CSS, React-Calendar, React Color'
+  },
+  {
     name: 'fortbyte',
     id: 'fortbyte',
     description: 'A tool to keep track of Fortnite news, user stats and daily item shop updates from the comfort of your mobile or desktop (no console needed!)',
