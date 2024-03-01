@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Cyanne Jones</title>
-        <meta name="description" content="Cyanne Jones' Portfolio" />
+        <meta name="description" content="Cyanne Jones's Portfolio" />
       </Head>
       <div className={styles.bg}></div>
       <div className={styles.bg2}></div>
@@ -22,11 +22,11 @@ export default function Home() {
           Programming feels like all three.
           </p>
           <p className={styles.aboutText}>
-          {`I’m an artsy Denver-born front-end focused software engineer 
-          working in React and Next.js (what this site is built with!)`}.
+          {`I’m an artsy Denver-born full stack software engineer 
+          who loves thoughtfully creating delightful web applications`}.
           </p>
           <p className={styles.aboutText}>
-            {`I love working on UI/UX, and really anything that'll give
+            {`I love working with human-first UX in mind, and really anything that'll give
             me the opportunity to have some creative fun. Feel free to 
             browse through my projects or drop me a line through my 
             contact page!`}
