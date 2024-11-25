@@ -21,14 +21,20 @@ export default function Home() {
           Programming feels like all three.
           </p>
           <p className={styles.aboutText}>
-          {`I’m an artsy Denver-born full stack software engineer 
-          who loves thoughtfully creating delightful web applications`}.
+          {`I'm a creative Colorado-based full-stack software developer who loves crafting apps 
+          that not just functional, but are a delight to use. I'm always trying my best to keep my users in mind
+          to find fresh and fun ways of solving problems, because building an excellent applications starts with 
+          understanding the humans who use them.`}
           </p>
           <p className={styles.aboutText}>
-            {`I love working with human-first UX in mind, and really anything that'll give
-            me the opportunity to have some creative fun. Feel free to 
-            browse through my projects or drop me a line through my 
-            contact page!`}
+            {`I've been programming for about three years now, and after two amazing years at a a SaaS startup, 
+            where I got to blend my technical skills with my passion for building tools that help people,
+            I'm looking for my next professional dev adventure. I love working with React, Next.js, and Node.js the most right now, and 
+            thrive while collaborating with other developers to make something rad together.`}
+          </p>
+          <p className={styles.aboutText}>
+            {`Feel free to browse through my projects or drop me a line through my contact page, and may all your 
+            compile on the first try. 🌱`}
           </p>
         </div>
         <img 
