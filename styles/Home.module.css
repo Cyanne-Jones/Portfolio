@@ -1,5 +1,5 @@
 .textBox {
-  background-color: rgba(235, 223, 125, 0.8);
+  background-color:rgba(235, 209, 125, 0.8);
   border-radius: 5rem;
   height: 60%;
   width: 65%;
@@ -45,8 +45,8 @@
 }
 
 .bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #C9D1A0 50%, #EBDF7D 50%);
+  animation:slide 10s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #C9D1A0 50%, #ebd17d 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -71,7 +71,7 @@
 }
 
 .bg3 {
-  background-image: linear-gradient(-60deg, #C9D1A0 50%, #9AA463 50%);
+  background-image: linear-gradient(-60deg, #bbca72 50%, #8d984f 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -82,6 +82,7 @@
   animation-duration:10s;
   animation:slide 10s ease-in-out infinite alternate;
 }
+
 
 @keyframes slide {
   0% {
