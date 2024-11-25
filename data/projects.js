@@ -4,7 +4,7 @@ const projects =  [
     id: 'constellate',
     description: 'A web based journaling application to keep track of your thoughts and moods over time.',
     img: 'https://i.imgur.com/M5iWWrx.png',
-    deployed: 'https://constellate-journal.vercel.app/',
+    deployed: 'https://constellate.cyanne.codes/',
     repository: 'https://github.com/Cyanne-Jones/constellate',
     date: 'September-October 2022',
     builtUsing: 'Next.js, Google Auth, Firestore, Zustand, Vercel, Figma, CSS, React-Calendar, React Color'
@@ -14,7 +14,7 @@ const projects =  [
     id: 'fortbyte',
     description: 'A tool to keep track of Fortnite news, user stats and daily item shop updates from the comfort of your mobile or desktop (no console needed!)',
     img: 'https://i.imgur.com/csZXROR.png',
-    deployed: 'https://fortbyte.vercel.app/',
+    deployed: 'https://fortbyte.cyanne.codes/',
     repository: 'https://github.com/Cyanne-Jones/fortbyte',
     date: 'August 2022',
     builtUsing: 'React, HTML, CSS, Zustand, Vercel, Figma'
@@ -34,7 +34,7 @@ const projects =  [
     id: 'rancidTomatillos',
     description: 'Would you like information for all the best movies\' information at your fingertips? Search no farther! Rancid Tomatillos is for you!',
     img: 'https://i.imgur.com/6Yo6bo8.jpg',
-    deployed: 'https://shrouded-brushlands-38554.herokuapp.com/',
+    // deployed: 'https://shrouded-brushlands-38554.herokuapp.com/',
     repository: 'https://github.com/Cyanne-Jones/rancid-tomatillos',
     date: 'June 2022',
     builtUsing: 'React, HTML, CSS, Heroku, Figma'
@@ -44,7 +44,7 @@ const projects =  [
     id: 'ticTacNacho',
     description: 'Help Nacho Libre and his sidekick, Esqueleto, train for their next big luchador match by sparring in an action packed tic tac toe game!',
     img: 'https://i.imgur.com/XtNFkMY.png',
-    deployed: 'https://nachodraft.jonescyanne.repl.co/',
+    // deployed: 'https://nachodraft.jonescyanne.repl.co/',
     repository: 'https://github.com/Cyanne-Jones/tic-tac-toe',
     date: 'May 2022',
     builtUsing: 'Vanilla JS, HTML, CSS, Procreate, Pixel Studio'

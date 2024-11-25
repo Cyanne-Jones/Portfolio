@@ -20,11 +20,11 @@ export default function Project() {
           <div key={project.id} className={styles.slide}>
               <h3 className={styles.projectName}>{project.name}</h3>
               <div className={styles.linksContainer}>
-                <a 
+                {project.deployed && <a 
                   className={styles.link} 
                   rel="noreferrer"
                   href={project.deployed} 
-                  target="_blank">deployed</a>
+                  target="_blank">app link</a>}
                 <a className={styles.link} 
                   rel="noreferrer"
                   href={project.repository} 
