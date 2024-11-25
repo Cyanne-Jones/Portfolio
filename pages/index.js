@@ -27,13 +27,13 @@ export default function Home() {
           with the humans who will use it.`}
           </p>
           <p className={styles.aboutText}>
-            {`I've been programming for about three years now, and after two amazing years at a a SaaS startup, 
+            {`I've been programming for about three years now, and after two amazing years at a SaaS startup, 
             where I got to blend my technical skills with my passion for building tools that help people,
             I'm looking for my next professional dev adventure. I love working with React, Next.js, and Node.js the most right now, and 
             thrive while collaborating with other developers to make something rad together.`}
           </p>
           <p className={styles.aboutText}>
-            {`Feel free to browse through my projects or drop me a line through my contact page, and may all your 
+            {`Feel free to browse through my projects, or drop me a line through my contact page, and may all your 
             compile on the first try. 🌱`}
           </p>
         </div>
