@@ -9,7 +9,6 @@
 }
 
 .photo {
-  background-image: url(../public/cyanne-linked-in.jpeg);
   height: 40%;
   background-size: contain;
   border-radius: 100%;
