@@ -1,6 +1,6 @@
 .bg {
   animation:slide 10s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #F2BAC9 50%, #F2E2BA 50%);
+  background-image: linear-gradient(-60deg, #C9D1A0 50%, #EBDF7D 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -12,7 +12,7 @@
 
 .bg2 {
   animation:slide 10s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #F2BAC9 50%, #f1e0b7 50%);
+  background-image: linear-gradient(-60deg, #C9D1A0 50%, #c24627 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -25,7 +25,7 @@
 }
 
 .bg3 {
-  background-image: linear-gradient(-60deg, #F2BAC9 50%, #BAD7F2 50%);
+  background-image: linear-gradient(-60deg, #C9D1A0 50%, #9AA463 50%);
   bottom:0;
   left:-50%;
   opacity:.5;
@@ -71,8 +71,8 @@
   margin: 3rem;
   padding: 2rem;
   border-radius: 1rem;
-  background-color: rgba(186, 215, 242, 0.5);
-  box-shadow:rgba(194, 118, 183, 0.3) 0px 5px 10px;
+  background-color: rgba(154, 164, 99, 0.8);
+  box-shadow:rgba(63, 98, 62, 0.5) 0px 5px 10px;
 }
 
 .projectText {
@@ -94,7 +94,7 @@
 }
 
 .link:hover {
-  background-color: #F2BAC9;
+  background-color: #f0b0a1;
   box-shadow:rgba(142, 55, 129, 0.5) 5px 5px 5px;
   animation: wiggle 2s;
 }
