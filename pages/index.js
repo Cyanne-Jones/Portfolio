@@ -38,7 +38,7 @@ export default function Home() {
           </p>
         </div>
         <img 
-        src="https://i.imgur.com/30N9T7S.jpeg" 
+        src="https://i.imgur.com/u6xDM8h.png" 
         alt="Cyanne Jones" 
         className={styles.photo}/>
       </main>
