@@ -17,7 +17,7 @@ export default function Contact() {
       <div className={styles.boxContainer}>
         <div className={styles.yellowBox}>
           <h1 className={styles.header}>Contact Me!</h1>
-          <p className={styles.contactText}><span className={styles.contactType}>✉️ email:</span> jonescyanne@yahoo.com</p>
+          <p className={styles.contactText}><span className={styles.contactType}>✉️ email:</span> cyanne.e.jones@gmail.com</p>
           <p className={styles.contactText}><span className={styles.contactType}>📞 phone:</span> 720-725-2247</p>
           <p className={styles.contactText}><span className={styles.contactType}>🐦 carrier pigeon:</span> also acceptable</p>
         </div>
