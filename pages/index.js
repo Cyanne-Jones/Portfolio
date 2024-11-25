@@ -23,8 +23,8 @@ export default function Home() {
           <p className={styles.aboutText}>
           {`I'm a creative Colorado-based full-stack software developer who loves crafting apps 
           that not just functional, but are a delight to use. I'm always trying my best to keep my users in mind
-          to find fresh and fun ways of solving problems, because building an excellent applications starts with 
-          understanding the humans who use them.`}
+          to find fresh and fun ways of solving problems, because building an excellent application starts with 
+          understanding the humans who use it.`}
           </p>
           <p className={styles.aboutText}>
             {`I've been programming for about three years now, and after two amazing years at a a SaaS startup, 
