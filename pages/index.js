@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Nav from "../components/Nav.jsx";
-import photo from '../public/cyanne-linked-in.jpeg';
 
 export default function Home() {
   return (
