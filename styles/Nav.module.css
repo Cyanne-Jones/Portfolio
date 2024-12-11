@@ -5,36 +5,30 @@
   /* position: relative; */
 }
 
+.inactiveLink, .activeLink {
+  height: 2rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 5rem;
+}
+
 .activeLink {
   background-color: #d47158;
   box-shadow:rgba(90, 49, 88, 0.3) 0px 5px 10px;
-  height: 2rem;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 5rem;
 }
 
 .inactiveLink {
   background-color: #EBDF7D;
-  height: 2rem;
-  padding: 1rem;
-  margin: 1rem;
-  border-radius: 5rem;
 }
 
 .navList {
   display: flex;
-  margin: 1rem;
   align-items: center;
 }
 
 .inactiveLink:hover {
   background-color: #f0b0a1;
   box-shadow:rgba(63, 98, 62, 0.5) 5px 5px 5px;
-}
-
-.link:hover {
-  animation: wiggle 2s;
 }
 
 @keyframes wiggle {
