@@ -25,7 +25,7 @@ export default function Nav() {
             </Link>
         ))}
         <div key="resume" className={styles.link}>
-          <Link href="https://docs.google.com/document/d/e/2PACX-1vSo6eUvL_0an84PG3_uCVgxXtbn9fiGA9Zs22gv7xdSTfSU7FL1qUVjJ5KOL8yUdKBB0qSP4SzEN1H9/pub" passHref>
+          <Link href="https://docs.google.com/document/d/1A2jAYksWm76XVR7vASQAFLCRIIvDEvomY83g36jvoKo/edit?usp=sharing" passHref>
             <a 
               className={styles.inactiveLink} 
               target="_blank"
