@@ -38,13 +38,15 @@ export default function Home() {
             compile on the first try. 🌱`}
           </p>
         </div>
+        <div className={styles.imageContainer}>
         <Image 
-          src="../public/assets/headShot.png" 
+          src="/../public/assets/headShot.png" 
           alt="Cyanne Jones" 
           className={styles.photo}
-          height={1000}
-          width={1000}
+          height={500}
+          width={500}
         />
+        </div>
       </main>
     </div>
   )
