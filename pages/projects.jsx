@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Nav from '../components/Nav.jsx';
-import Image from 'next/image.js';
 import projects from '../data/projects';
 import styles from '../styles/Projects.module.css';
 
@@ -32,15 +31,7 @@ export default function Project() {
                   target="_blank">repository</a>
               </div>
               <div className={styles.imgAndTextBox}>
-                <div className={styles.imageContainer}>
-                  <Image 
-                    src={`/../public/assets/${project.id}.png`} 
-                    alt={project.name} 
-                    height={project.imgHeight}
-                    width={project.imgWidth}
-                    className={styles.image}
-                  />
-                </div>
+                <img src={project.img} className={styles.img}/>
                 <div className={styles.projectText}>
                 <p className={styles.projectDescription}>{project.description}</p>
                 <p className={styles.builtUsing}>Built using: {project.builtUsing}</p>
