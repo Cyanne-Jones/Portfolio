@@ -14,7 +14,8 @@
   box-shadow:rgba(194, 118, 183, 0.3) 0px 5px 10px;
   margin: 2rem;
   border: solid #c24627 7px;
-  overflow:hidden
+  overflow: hidden;
+  width: 40%;
 }
 
 .main {
@@ -117,10 +118,6 @@
   }  
   .textBox {
     height: auto;
-  }
-
-  .photo {
-    width: 40%;
   }
   
   .nameText {
