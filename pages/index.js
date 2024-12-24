@@ -42,9 +42,9 @@ export default function Home() {
         <Image 
           src="/../public/assets/headShot.png" 
           alt="Cyanne Jones" 
-          className={styles.photo}
           height={500}
           width={500}
+          layout='responsive'
         />
         </div>
       </main>
