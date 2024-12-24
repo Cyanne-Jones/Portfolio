@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Nav from "../components/Nav.jsx";
-import Image from 'next/image.js';
 
 export default function Home() {
   return (
@@ -38,15 +37,10 @@ export default function Home() {
             compile on the first try. 🌱`}
           </p>
         </div>
-        <div className={styles.imageContainer}>
-        <Image 
-          src="/../public/assets/headShot.png" 
-          alt="Cyanne Jones" 
-          height={500}
-          width={500}
-          layout='responsive'
-        />
-        </div>
+        <img 
+        src="https://i.imgur.com/u6xDM8h.png" 
+        alt="Cyanne Jones" 
+        className={styles.photo}/>
       </main>
     </div>
   )

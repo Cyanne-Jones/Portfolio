@@ -47,13 +47,10 @@
   }
 }
 
-.imageContainer {
-  width: 70%;
+.img {
+  width: 50%;
+  border-radius: 2rem;
   max-width: 600px;
-}
-
-.image {
-  border-radius: 1rem;
 }
 
 .projectName {
