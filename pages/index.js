@@ -34,7 +34,7 @@ export default function Home() {
           </p>
           <p className={styles.aboutText}>
             {`Feel free to browse through my projects, or drop me a line through my contact page, and may all your 
-            compile on the first try. 🌱`}
+            code compile on the first try. 🌱`}
           </p>
         </div>
         <img 
