@@ -27,10 +27,9 @@ export default function Home() {
           with the humans who will use it.`}
           </p>
           <p className={styles.aboutText}>
-            {`I've been programming for about three years now, and after two amazing years at a SaaS startup, 
-            where I got to blend my technical skills with my passion for building tools that help people,
-            I'm looking for my next professional dev adventure. I love working with React, Next.js, and Node.js the most right now, and 
-            thrive while collaborating with other developers to make something rad together.`}
+            {`After a few exciting years of hands-on experience in the startup world, I'm still as in love as ever with crafting
+             tools that help people do their best work. I thrive in collaborative spaces where developers support 
+             each other and ship cool tech together, and I always try to bring curiosity, kindness, and a little bit of ✨fun✨ to the table`}
           </p>
           <p className={styles.aboutText}>
             {`Feel free to browse through my projects, or drop me a line through my contact page, and may all your 
