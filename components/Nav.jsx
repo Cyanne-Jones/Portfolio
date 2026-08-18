@@ -18,20 +18,22 @@ export default function Nav() {
     <div className={styles.navBar}>
       <div className={styles.navList}>
         {navLinks.map((link) => (
-            <Link href={link.path} key={link.title} passHref>
-              <a className={router.pathname === link.path ? styles.activeLink : styles.inactiveLink}>
-                {link.title}
-              </a>
+            <Link
+              href={link.path}
+              key={link.title}
+              className={router.pathname === link.path ? styles.activeLink : styles.inactiveLink}
+            >
+              {link.title}
             </Link>
         ))}
         <div key="resume" className={styles.link}>
-          <Link href="https://docs.google.com/document/d/1A2jAYksWm76XVR7vASQAFLCRIIvDEvomY83g36jvoKo/edit?usp=sharing" passHref>
-            <a 
-              className={styles.inactiveLink} 
-              target="_blank"
-              rel="noreferrer">
-              resumé
-            </a>
+          <Link
+            href="https://docs.google.com/document/d/1A2jAYksWm76XVR7vASQAFLCRIIvDEvomY83g36jvoKo/edit?usp=sharing"
+            className={styles.inactiveLink}
+            target="_blank"
+            rel="noreferrer"
+          >
+            resumé
           </Link>
         </div>
       </div>
